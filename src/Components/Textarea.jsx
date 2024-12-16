@@ -34,6 +34,7 @@ export default function Textarea(props) {
         a.download = 'Document.txt';
         a.click();
         URL.revokeObjectURL(url);
+        props.showAlert("Document Downloading","Success!");
     }
     return (
         <div className='my-4'>
