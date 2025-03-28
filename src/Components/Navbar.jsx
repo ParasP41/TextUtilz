@@ -8,7 +8,7 @@ export default function Navbar(props) {
       <nav className='shadow-md'>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3  ">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center md:text-4xl text-2xl font-semibold whitespace-nowrap ">TextUtilz</span>
+            <span className="self-center md:text-4xl text-2xl font-semibold whitespace-nowrap ">Text-Utilz</span>
             <div className=" w-full md:block md:w-auto" id="navbar-default">
               <ul className="font-medium flex flex-row space-x-3 text-l md:p-0 mt-[4] md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 ">
                 <li>
